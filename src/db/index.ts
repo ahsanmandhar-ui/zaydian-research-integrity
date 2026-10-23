@@ -20,6 +20,8 @@ export interface ConflictRecord { id?: number; entityType: string; entityId: str
 export interface PublishedItem { id?: number; projectId: number; versionId: number; publishedBy: number; publishedAt: number }
 export interface DepartmentDashboard { id?: number; department: string; config: unknown; createdAt: number; updatedAt: number }
 
+export interface AuditEntry { id?: number; entityType: string; entityId: string; action: string; actorId?: number; details?: unknown; createdAt: number }
+
 export class ZriDatabase extends Dexie {
   projects!: Table<Project, number>
   memberships!: Table<Membership, number>
@@ -38,6 +40,7 @@ export class ZriDatabase extends Dexie {
   conflicts!: Table<ConflictRecord, number>
   publishedItems!: Table<PublishedItem, number>
   departmentDashboards!: Table<DepartmentDashboard, number>
+  auditLog!: Table<AuditEntry, number>
 
   constructor() {
     super('zri')
@@ -67,6 +70,9 @@ export class ZriDatabase extends Dexie {
       conflicts: '++id, entityType, entityId, status, createdAt',
       publishedItems: '++id, projectId, versionId, publishedBy, publishedAt',
       departmentDashboards: '++id, department, createdAt, updatedAt',
+    })
+    this.version(4).stores({
+      auditLog: '++id, entityType, entityId, actorId, createdAt',
     })
   }
 }

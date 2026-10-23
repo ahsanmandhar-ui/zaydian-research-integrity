@@ -82,7 +82,7 @@
       "id": "T-004",
       "title": "Demo data module (isolated, removable)",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M0",
       "effort_hours": 3,
       "outputs": [
@@ -161,7 +161,7 @@
       "id": "T-007",
       "title": "WebRTC transport adapter (encrypted)",
       "owner": "sync-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M5",
       "effort_hours": 4,
       "outputs": [
@@ -207,7 +207,7 @@
       "id": "T-009",
       "title": "Synchronization Center UI",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M5",
       "effort_hours": 3,
       "outputs": [
@@ -231,7 +231,7 @@
       "id": "T-010",
       "title": "Sync simulation lab (demo)",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M6",
       "effort_hours": 3,
       "outputs": [
@@ -282,7 +282,7 @@
       "id": "T-012",
       "title": "Council voting engine (immutable votes)",
       "owner": "backend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M1",
       "effort_hours": 3,
       "outputs": [
@@ -306,7 +306,7 @@
       "id": "T-013",
       "title": "Project links & permissions",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M1",
       "effort_hours": 2,
       "outputs": [
@@ -553,7 +553,7 @@
       "id": "T-024",
       "title": "Backups & restore",
       "owner": "devops-release",
-      "status": "pending",
+      "status": "done",
       "milestone": "M4",
       "effort_hours": 2,
       "outputs": [

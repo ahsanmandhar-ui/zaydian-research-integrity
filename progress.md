@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-022 UI shell (2026-10-23)
-**Last commit:** daef400
+**Last completed:** T-004/T-007/T-009/T-010/T-012/T-013/T-024 (2026-10-23)
+**Last commit:** 1b275da
 **Blocked tasks:** none
-**Tasks ready now:** T-004, T-007, T-012, T-013, T-024, T-025, T-026
-**Next step:** T-024 security
+**Tasks ready now:** T-025, T-026
+**Next step:** T-025 tests & CI
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** T-024 security
+**Next step:** T-025 tests & CI
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** T-024 security
+**Next step:** T-025 tests & CI
 **Handoff:** n/a
 
 ---
