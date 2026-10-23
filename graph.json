@@ -29,7 +29,7 @@
       "id": "T-002",
       "title": "Auth & RBAC data model (users, roles, invitations)",
       "owner": "backend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M0",
       "effort_hours": 3,
       "outputs": [

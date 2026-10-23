@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-001 scaffold built, build+tests pass (2026-10-23)
-**Last commit:** cfa75e6
+**Last completed:** T-002 auth & RBAC data model (2026-10-23)
+**Last commit:** c1f5935
 **Blocked tasks:** none
-**Tasks ready now:** T-002, T-022, T-025
-**Next step:** T-002 Auth & RBAC data model (backend-engineer)
+**Tasks ready now:** T-003, T-022, T-025
+**Next step:** T-003 Dexie schema & migrations
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** Product Manager to run discovery batch 1
+**Next step:** T-003 Dexie schema & migrations
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** discovery batch 1 (users, platform, volume, sync, non-goals)
+**Next step:** T-003 Dexie schema & migrations
 **Handoff:** n/a
 
 ---
