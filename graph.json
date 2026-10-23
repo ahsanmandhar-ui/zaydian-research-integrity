@@ -488,7 +488,7 @@
       "id": "T-021",
       "title": "Department dashboards",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M3",
       "effort_hours": 3,
       "outputs": [

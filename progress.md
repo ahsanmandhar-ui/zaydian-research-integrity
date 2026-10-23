@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-020 analytics (2026-10-23)
-**Last commit:** 218fa6c
+**Last completed:** T-021 dashboards (2026-10-23)
+**Last commit:** 9ade98b
 **Blocked tasks:** none
-**Tasks ready now:** T-004, T-005, T-011, T-021, T-022, T-024, T-025
-**Next step:** T-021 department dashboards
+**Tasks ready now:** T-004, T-005, T-011, T-022, T-023, T-024, T-025
+**Next step:** T-023 sync protocol
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** T-021 department dashboards
+**Next step:** T-023 sync protocol
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** T-021 department dashboards
+**Next step:** T-023 sync protocol
 **Handoff:** n/a
 
 ---
