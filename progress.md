@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-017 versioning (2026-10-23)
-**Last commit:** eb1dbbc
+**Last completed:** T-018 submission & voting (2026-10-23)
+**Last commit:** de92ff5
 **Blocked tasks:** none
-**Tasks ready now:** T-004, T-005, T-011, T-018, T-022, T-024, T-025
-**Next step:** T-018 submission workflow
+**Tasks ready now:** T-004, T-005, T-011, T-019, T-022, T-024, T-025
+**Next step:** T-019 published vault
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** T-018 submission workflow
+**Next step:** T-019 published vault
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** T-018 submission workflow
+**Next step:** T-019 published vault
 **Handoff:** n/a
 
 ---

@@ -425,7 +425,7 @@
       "id": "T-018",
       "title": "Analytics engine & 5 KPIs",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M3",
       "effort_hours": 4,
       "outputs": [
