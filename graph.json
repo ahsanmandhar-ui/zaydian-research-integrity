@@ -402,7 +402,7 @@
       "id": "T-017",
       "title": "Versioning & submission events",
       "owner": "backend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M2",
       "effort_hours": 3,
       "outputs": [
