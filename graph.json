@@ -381,7 +381,7 @@
       "id": "T-016",
       "title": "Import/export (CSV/Excel/SPSS)",
       "owner": "backend-engineer",
-      "status": "in_progress",
+      "status": "done",
       "milestone": "M2",
       "effort_hours": 3,
       "outputs": [
