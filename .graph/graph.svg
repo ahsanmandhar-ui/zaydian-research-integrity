@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2856" height="644" viewBox="0 0 2856 644" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5F6368"/></marker>
+<marker id="arrowc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1A73E8"/></marker>
+</defs>
+<rect width="100%%" height="100%%" fill="#FFFFFF"/>
+<path d="M 252 86 C 308 86, 308 86, 364 86" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 252 86 C 468 86, 468 86, 684 86" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 572 86 C 628 86, 628 86, 684 86" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 892 86 C 948 86, 948 86, 1004 86" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 892 86 C 948 86, 948 204, 1004 204" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1212 204 C 1268 204, 1268 86, 1324 86" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1532 86 C 1588 86, 1588 86, 1644 86" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1212 204 C 1268 204, 1268 204, 1324 204" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1852 86 C 1908 86, 1908 86, 1964 86" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1532 204 C 1748 204, 1748 86, 1964 86" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 2172 86 C 2228 86, 2228 86, 2284 86" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 572 86 C 788 86, 788 322, 1004 322" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 892 86 C 948 86, 948 322, 1004 322" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1212 322 C 1268 322, 1268 322, 1324 322" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1212 322 C 1268 322, 1268 440, 1324 440" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 892 86 C 948 86, 948 440, 1004 440" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 1212 440 C 1268 440, 1268 558, 1324 558" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 1532 558 C 1588 558, 1588 204, 1644 204" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1532 558 C 1588 558, 1588 322, 1644 322" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 1532 558 C 1748 558, 1748 204, 1964 204" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 1852 322 C 1908 322, 1908 204, 1964 204" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 2172 204 C 2228 204, 2228 204, 2284 204" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 2492 204 C 2548 204, 2548 86, 2604 86" fill="none" stroke="#1A73E8" stroke-width="2.6" marker-end="url(#arrowc)"/>
+<path d="M 2492 204 C 2548 204, 2548 204, 2604 204" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 252 86 C 308 86, 308 204, 364 204" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1212 204 C 1588 204, 1588 322, 1964 322" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 1852 86 C 1908 86, 1908 322, 1964 322" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 892 86 C 948 86, 948 558, 1004 558" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 252 86 C 308 86, 308 322, 364 322" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path d="M 572 322 C 628 322, 628 204, 684 204" fill="none" stroke="#5F6368" stroke-width="1.4" marker-end="url(#arrow)"/>
+<g>
+<rect x="44" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="54" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-001</text>
+<rect x="192" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="238" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="54" y="78" font-size="12" font-weight="600" fill="#3C4043">Project scaffold</text>
+<text x="54" y="92" font-size="12" font-weight="600" fill="#3C4043">(Vite+React+TS+Dexie)</text>
+<text x="54" y="119" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="364" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="374" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-002</text>
+<rect x="512" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="558" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="374" y="78" font-size="12" font-weight="600" fill="#3C4043">Auth &amp; RBAC data model</text>
+<text x="374" y="92" font-size="12" font-weight="600" fill="#3C4043">(users, roles,</text>
+<text x="374" y="106" font-size="12" font-weight="600" fill="#3C4043">invitations)</text>
+<text x="374" y="119" font-size="10" fill="#3C4043" opacity="0.85">backend-engineer</text>
+</g>
+<g>
+<rect x="684" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="694" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-003</text>
+<rect x="832" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="878" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="694" y="78" font-size="12" font-weight="600" fill="#3C4043">Dexie schema &amp; migrations</text>
+<text x="694" y="92" font-size="12" font-weight="600" fill="#3C4043">(core entities)</text>
+<text x="694" y="119" font-size="10" fill="#3C4043" opacity="0.85">database-engineer</text>
+</g>
+<g>
+<rect x="1004" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1014" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-004</text>
+<rect x="1152" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1198" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1014" y="78" font-size="12" font-weight="600" fill="#3C4043">Demo data module</text>
+<text x="1014" y="92" font-size="12" font-weight="600" fill="#3C4043">(isolated, removable)</text>
+<text x="1014" y="119" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="1004" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1014" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-005</text>
+<rect x="1152" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1198" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1014" y="196" font-size="12" font-weight="600" fill="#3C4043">Sync operation log &amp;</text>
+<text x="1014" y="210" font-size="12" font-weight="600" fill="#3C4043">durable queue (P2P)</text>
+<text x="1014" y="237" font-size="10" fill="#3C4043" opacity="0.85">sync-engineer</text>
+</g>
+<g>
+<rect x="1324" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1334" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-006</text>
+<rect x="1472" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1518" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1334" y="78" font-size="12" font-weight="600" fill="#3C4043">Peer identity &amp; QR/manual</text>
+<text x="1334" y="92" font-size="12" font-weight="600" fill="#3C4043">pairing</text>
+<text x="1334" y="119" font-size="10" fill="#3C4043" opacity="0.85">security-engineer</text>
+</g>
+<g>
+<rect x="1644" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1654" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-007</text>
+<rect x="1792" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1838" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1654" y="78" font-size="12" font-weight="600" fill="#3C4043">WebRTC transport adapter</text>
+<text x="1654" y="92" font-size="12" font-weight="600" fill="#3C4043">(encrypted)</text>
+<text x="1654" y="119" font-size="10" fill="#3C4043" opacity="0.85">sync-engineer</text>
+</g>
+<g>
+<rect x="1324" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1334" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-008</text>
+<rect x="1472" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1518" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1334" y="196" font-size="12" font-weight="600" fill="#3C4043">Conflict resolution engine</text>
+<text x="1334" y="237" font-size="10" fill="#3C4043" opacity="0.85">sync-engineer</text>
+</g>
+<g>
+<rect x="1964" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1974" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-009</text>
+<rect x="2112" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2158" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1974" y="78" font-size="12" font-weight="600" fill="#3C4043">Synchronization Center UI</text>
+<text x="1974" y="119" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="2284" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="2294" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-010</text>
+<rect x="2432" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2478" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="2294" y="78" font-size="12" font-weight="600" fill="#3C4043">Sync simulation lab (demo)</text>
+<text x="2294" y="119" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="1004" y="280" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1014" y="296" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-011</text>
+<rect x="1152" y="286" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1198" y="296" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1014" y="314" font-size="12" font-weight="600" fill="#3C4043">Project workspace &amp;</text>
+<text x="1014" y="328" font-size="12" font-weight="600" fill="#3C4043">memberships</text>
+<text x="1014" y="355" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="1324" y="280" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1334" y="296" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-012</text>
+<rect x="1472" y="286" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1518" y="296" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1334" y="314" font-size="12" font-weight="600" fill="#3C4043">Council voting engine</text>
+<text x="1334" y="328" font-size="12" font-weight="600" fill="#3C4043">(immutable votes)</text>
+<text x="1334" y="355" font-size="10" fill="#3C4043" opacity="0.85">backend-engineer</text>
+</g>
+<g>
+<rect x="1324" y="398" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1334" y="414" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-013</text>
+<rect x="1472" y="404" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1518" y="414" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1334" y="432" font-size="12" font-weight="600" fill="#3C4043">Project links &amp;</text>
+<text x="1334" y="446" font-size="12" font-weight="600" fill="#3C4043">permissions</text>
+<text x="1334" y="473" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="1004" y="398" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="1014" y="414" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-014</text>
+<rect x="1152" y="404" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1198" y="414" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1014" y="432" font-size="12" font-weight="600" fill="#3C4043">Variable View (SPSS-style)</text>
+<text x="1014" y="473" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="1324" y="516" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="1334" y="532" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-015</text>
+<rect x="1472" y="522" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1518" y="532" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1334" y="550" font-size="12" font-weight="600" fill="#3C4043">Data View grid +</text>
+<text x="1334" y="564" font-size="12" font-weight="600" fill="#3C4043">validation</text>
+<text x="1334" y="591" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="1644" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1654" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-016</text>
+<rect x="1792" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1838" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1654" y="196" font-size="12" font-weight="600" fill="#3C4043">Import/export</text>
+<text x="1654" y="210" font-size="12" font-weight="600" fill="#3C4043">(CSV/Excel/SPSS)</text>
+<text x="1654" y="237" font-size="10" fill="#3C4043" opacity="0.85">backend-engineer</text>
+</g>
+<g>
+<rect x="1644" y="280" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="1654" y="296" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-017</text>
+<rect x="1792" y="286" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1838" y="296" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1654" y="314" font-size="12" font-weight="600" fill="#3C4043">Versioning &amp; submission</text>
+<text x="1654" y="328" font-size="12" font-weight="600" fill="#3C4043">events</text>
+<text x="1654" y="355" font-size="10" fill="#3C4043" opacity="0.85">backend-engineer</text>
+</g>
+<g>
+<rect x="1964" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="1974" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-018</text>
+<rect x="2112" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2158" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1974" y="196" font-size="12" font-weight="600" fill="#3C4043">Analytics engine &amp; 5 KPIs</text>
+<text x="1974" y="237" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="2284" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="2294" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-019</text>
+<rect x="2432" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2478" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="2294" y="196" font-size="12" font-weight="600" fill="#3C4043">Advanced analytics</text>
+<text x="2294" y="210" font-size="12" font-weight="600" fill="#3C4043">sections (9)</text>
+<text x="2294" y="237" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="2604" y="44" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#1A73E8" stroke-width="3"/>
+<text x="2614" y="60" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-020</text>
+<rect x="2752" y="50" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2798" y="60" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="2614" y="78" font-size="12" font-weight="600" fill="#3C4043">Published Vault</text>
+<text x="2614" y="119" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="2604" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="2614" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-021</text>
+<rect x="2752" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2798" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="2614" y="196" font-size="12" font-weight="600" fill="#3C4043">Department dashboards</text>
+<text x="2614" y="237" font-size="10" fill="#3C4043" opacity="0.85">frontend-engineer</text>
+</g>
+<g>
+<rect x="364" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="374" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-022</text>
+<rect x="512" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="558" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="374" y="196" font-size="12" font-weight="600" fill="#3C4043">UI shell, navigation &amp;</text>
+<text x="374" y="210" font-size="12" font-weight="600" fill="#3C4043">WCAG 2.2 AA</text>
+<text x="374" y="237" font-size="10" fill="#3C4043" opacity="0.85">ui-ux-designer</text>
+</g>
+<g>
+<rect x="1964" y="280" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1974" y="296" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-023</text>
+<rect x="2112" y="286" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="2158" y="296" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1974" y="314" font-size="12" font-weight="600" fill="#3C4043">Encryption &amp; sensitive</text>
+<text x="1974" y="328" font-size="12" font-weight="600" fill="#3C4043">data handling</text>
+<text x="1974" y="355" font-size="10" fill="#3C4043" opacity="0.85">security-engineer</text>
+</g>
+<g>
+<rect x="1004" y="516" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="1014" y="532" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-024</text>
+<rect x="1152" y="522" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="1198" y="532" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="1014" y="550" font-size="12" font-weight="600" fill="#3C4043">Backups &amp; restore</text>
+<text x="1014" y="591" font-size="10" fill="#3C4043" opacity="0.85">devops-release</text>
+</g>
+<g>
+<rect x="364" y="280" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="374" y="296" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-025</text>
+<rect x="512" y="286" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="558" y="296" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="374" y="314" font-size="12" font-weight="600" fill="#3C4043">Test automation setup</text>
+<text x="374" y="328" font-size="12" font-weight="600" fill="#3C4043">(Vitest+Playwright)</text>
+<text x="374" y="355" font-size="10" fill="#3C4043" opacity="0.85">test-automation-engineer</text>
+</g>
+<g>
+<rect x="684" y="162" rx="10" ry="10" width="208" height="84" fill="#F1F3F4" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="694" y="178" font-size="10" font-weight="700" fill="#9AA0A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">T-026</text>
+<rect x="832" y="168" rx="6" ry="6" width="51" height="14" fill="#9AA0A6"/>
+<text x="878" y="178" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="end">PENDING</text>
+<text x="694" y="196" font-size="12" font-weight="600" fill="#3C4043">Documentation &amp; threat</text>
+<text x="694" y="210" font-size="12" font-weight="600" fill="#3C4043">model</text>
+<text x="694" y="237" font-size="10" fill="#3C4043" opacity="0.85">technical-writer</text>
+</g>
+<text x="44" y="24" font-size="13" font-weight="700" fill="#202124">zaydian-research-integrity</text>
+<text x="2812" y="24" font-size="10" fill="#5F6368">pending 26 · critical path: 9 nodes</text>
+</svg>
