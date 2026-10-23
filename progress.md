@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-002 auth & RBAC data model (2026-10-23)
-**Last commit:** c1f5935
+**Last completed:** T-003 Dexie schema & migrations (2026-10-23)
+**Last commit:** 10f569a
 **Blocked tasks:** none
-**Tasks ready now:** T-003, T-022, T-025
-**Next step:** T-003 Dexie schema & migrations
+**Tasks ready now:** T-004, T-005, T-011, T-014, T-024, T-022, T-025
+**Next step:** T-004 Demo data module
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** T-003 Dexie schema & migrations
+**Next step:** T-004 Demo data module
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** T-003 Dexie schema & migrations
+**Next step:** T-004 Demo data module
 **Handoff:** n/a
 
 ---

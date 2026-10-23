@@ -54,7 +54,7 @@
       "id": "T-003",
       "title": "Dexie schema & migrations (core entities)",
       "owner": "database-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M0",
       "effort_hours": 3,
       "outputs": [
