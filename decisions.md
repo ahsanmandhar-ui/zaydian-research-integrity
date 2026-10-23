@@ -26,3 +26,17 @@
 **Consequences:** More upfront ceremony (plan approval before code). In exchange: no feature loss, no context loss on model switch, and an auditable traceability matrix at delivery.
 
 ---
+---
+
+## ADR-001 — Initial sync mode: institution-controlled encrypted relay
+
+**Date:** 2026-10-23 · **Status:** accepted (default, pending Admin confirmation) · **Decided by:** Principal Architect (default)
+
+**Context:** Need a dependable initial deployment for a medical college; direct P2P cannot receive updates while offline.
+
+**Decision:** Build a pluggable sync layer with an institution-controlled encrypted relay as the initial transport (Mode B/C). Direct P2P (Mode A) added later without redesign.
+
+**Consequences:** Requires an institution-controlled host; relay may retain encrypted data/metadata; not equivalent to no network infrastructure.
+
+**Review trigger:** revisit if institution cannot host a relay or demands fully peer-direct operation.
+
