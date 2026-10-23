@@ -1,6 +1,6 @@
 ﻿import { describe, it, expect, beforeEach } from 'vitest'
 import { db } from '../db'
-import { createVariable, listVariables, validateValue } from './variables'
+import { createVariable, validateValue } from './variables'
 import { createRecord, updateCell, listRecords } from './records'
 
 beforeEach(async () => {

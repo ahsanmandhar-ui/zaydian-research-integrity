@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-014/T-015 dataset services (2026-10-23)
-**Last commit:** a468ee8
+**Last completed:** T-016 CSV/XLSX import-export (2026-10-23)
+**Last commit:** 13d5402
 **Blocked tasks:** none
-**Tasks ready now:** T-004, T-005, T-011, T-016, T-017, T-022, T-024, T-025
-**Next step:** T-016 import/export
+**Tasks ready now:** T-004, T-005, T-011, T-017, T-022, T-024, T-025
+**Next step:** T-017 versioning
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** T-016 import/export
+**Next step:** T-017 versioning
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** T-016 import/export
+**Next step:** T-017 versioning
 **Handoff:** n/a
 
 ---
