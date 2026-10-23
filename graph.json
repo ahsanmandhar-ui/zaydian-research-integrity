@@ -110,7 +110,7 @@
       "id": "T-005",
       "title": "Sync operation log & durable queue (P2P)",
       "owner": "sync-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M5",
       "effort_hours": 4,
       "outputs": [
@@ -139,7 +139,7 @@
       "id": "T-006",
       "title": "Peer identity & QR/manual pairing",
       "owner": "security-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M5",
       "effort_hours": 3,
       "outputs": [
@@ -184,7 +184,7 @@
       "id": "T-008",
       "title": "Conflict resolution engine",
       "owner": "sync-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M5",
       "effort_hours": 4,
       "outputs": [
@@ -530,7 +530,7 @@
       "id": "T-023",
       "title": "Encryption & sensitive data handling",
       "owner": "security-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M4",
       "effort_hours": 3,
       "outputs": [
