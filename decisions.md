@@ -40,3 +40,21 @@
 
 **Review trigger:** revisit if institution cannot host a relay or demands fully peer-direct operation.
 
+---
+
+## ADR-002 — Zero-cost decentralized P2P synchronization (supersedes relay-default as initial)
+
+**Date:** 2026-10-23 · **Status:** accepted (pending Admin confirmation) · **Decided by:** Principal Architect
+
+**Context:** Budget is effectively zero; cannot afford dedicated server, paid sync service, or hosted research DB. Need reliable offline-first operation.
+
+**Decision:** Implement local-first P2P sync with WebRTC data channels and authenticated peer pairing (QR/manual) as the primary transport. Provide pluggable adapters for optional signaling and TURN relay, but do not require paid infrastructure for v1. Institution-controlled relay (ADR-001) becomes an optional later adapter, not the initial dependency. Store-and-forward by connected peers enables eventual propagation.
+
+**Consequences:**
+- No global peer discovery; pairing is manual/QR.
+- Restrictive networks may prevent direct connections; documented limitation.
+- Delivery while all relevant peers are offline cannot be guaranteed without a coordination/relay mechanism.
+- Browser background execution limits must be documented; no background host promises.
+
+**Review trigger:** revisit if an institution can host a free relay or demands guaranteed delivery while peers offline.
+

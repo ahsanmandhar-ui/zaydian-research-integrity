@@ -6,7 +6,7 @@
 
 | Metric | Count |
 |---|---|
-| Total features | 40 |
+| Total features | 50 |
 | Approved | 0 |
 | Verified | 0 |
 | Deferred | 0 |
@@ -755,4 +755,184 @@
 - Real patient data in demo environment — prohibited
 - Hosted central research database — prohibited by architecture
 - Gmail-specific identity dependency — use verified email identity
+
+### F-041 — Zero-cost P2P sync architecture and pluggable connection layer
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Principal Architect
+- **Milestone:** M5
+- **Description:** Local-first P2P sync with no paid server/DB; modular connection manager supporting manual/QR pairing, LAN discovery (with browser-limit docs), optional signaling adapter interface, optional TURN relay adapter; WebRTC data channels for direct encrypted transport; authenticated peer pairing; operation-log exchange; store-and-forward by connected peers.
+- **Acceptance criteria:**
+  - AC1 pluggable transports
+  - AC2 no paid dependency
+  - AC3 QR/manual pairing works
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** from P2P sync implementation prompt; browser limitations documented
+- **History:** 2026-10-23 created
+
+---
+
+### F-042 — Versioned sync protocol (operations, IDs, clocks, checkpoints)
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Sync & Offline Engineer
+- **Milestone:** M5
+- **Description:** Versioned protocol with unique op IDs, institution/workspace ID, entity IDs, actor/device ID, op type/payload, schema/protocol version, logical clock/version metadata, creation timestamp, parent/dependency IDs, authorization context, integrity/auth metadata; globally unique IDs; idempotent processing; dedup; checkpoints and safe log compaction; interrupted-transfer recovery; queue status/diagnostics; schema migrations; missing-dependency detection.
+- **Acceptance criteria:**
+  - AC1 idempotent replay
+  - AC2 checkpoint/compaction safe
+  - AC3 version mismatch handled
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** do not use device timestamps alone for ordering
+- **History:** 2026-10-23 created
+
+---
+
+### F-043 — Authenticated peer identity and device registration
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Security Engineer
+- **Milestone:** M5
+- **Description:** Each peer has verifiable identity and device registration; peers authenticate via documented secure mechanism; invitation-only registration and RBAC preserved; authorization checked before accepting/applying/forwarding; revoked users/devices rejected when status known; permission changes propagate with versioning/conflict handling; unauthorized/malformed ops rejected and logged; never trust peer by network membership.
+- **Acceptance criteria:**
+  - AC1 peer auth handshake
+  - AC2 revoked device rejected
+  - AC3 permission changes versioned
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** document offline membership/revocation staleness window
+- **History:** 2026-10-23 created
+
+---
+
+### F-044 — Conflict resolution and research integrity policies
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Sync & Offline Engineer
+- **Milestone:** M5
+- **Description:** Automatic merge for independent changes; conflict records for concurrent same-field edits; conflict-review UI showing both versions/authors/timestamps; explicit authorized resolution; preserve original ops and resolution history; transactional updates. Entity-specific policies: tasks/metadata merge; dataset observations stable IDs + flag concurrent edits; schema changes require migration + review; council votes immutable with authorized corrections; ethics/publication/audit preserve history; roles/permissions never granted by peer claim. No universal LWW.
+- **Acceptance criteria:**
+  - AC1 field-aware conflicts
+  - AC2 immutable votes
+  - AC3 history preserved
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** conflict screen per spec
+- **History:** 2026-10-23 created
+
+---
+
+### F-045 — Encryption, key management and sensitive-data handling for sync
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Security Engineer
+- **Milestone:** M5
+- **Description:** Encrypted transport (WebRTC) plus at-rest protection where feasible; distinguish transport vs at-rest vs E2E vs auth/authz; if E2E, design key gen, onboarding, rotation, revocation, recovery without bypassing security; sync only authorized data; separate sensitive identifiers; exclude from analytics exports by default; no participant values in logs.
+- **Acceptance criteria:**
+  - AC1 transport encrypted
+  - AC2 sensitive identifiers separated
+  - AC3 no participant data in logs
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** do not claim E2E from transport encryption alone
+- **History:** 2026-10-23 created
+
+---
+
+### F-046 — Synchronization Center UI and accurate status
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Frontend Engineer
+- **Milestone:** M5
+- **Description:** Sync panel with states: Saved locally, Pending sync, Connecting, Connected to peer, Synchronizing, Synchronized with connected peers, Conflict requires review, Sync failed, Peer unavailable, Permissions/protocol mismatch. Never claim "Fully synchronized" unless substantiated; prefer "No pending changes for connected peers". Sync Center: device name/ID, paired devices + last status, add peer/scan QR/pair, pending op count, last successful exchange, retry failed, view conflicts, view diagnostics, remove/revoke paired device (authorized), export sanitized diagnostic report, clear explanations of offline/connectivity limits. No private keys/tokens/participant data in diagnostics.
+- **Acceptance criteria:**
+  - AC1 all states displayed
+  - AC2 no overstated sync claim
+  - AC3 diagnostics sanitized
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** UI accurate to real connection state
+- **History:** 2026-10-23 created
+
+---
+
+### F-047 — Device roles, hosting and background limitations
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Frontend Engineer
+- **Milestone:** M5
+- **Description:** Every compatible device acts as client + peer serving authorized ops; browser PWA uses persistent local storage + durable queue; no promise of background host after tab/browser close; show when device unavailable as peer; support optional later desktop/host mode without cloud DB; core data model/protocol independent of permanent master device.
+- **Acceptance criteria:**
+  - AC1 durable queue survives close
+  - AC2 unavailable-peer indicated
+  - AC3 no master-device dependency
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** browser background limits documented
+- **History:** 2026-10-23 created
+
+---
+
+### F-048 — Demo sync simulation lab (P2P)
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Frontend Engineer
+- **Milestone:** M6
+- **Description:** Integrate sync with demo environment; synthetic devices A (online connected), B (online connected), C (offline queued), D (reconnecting); Synchronization Simulation Lab testing local edits offline, connect/disconnect, forwarding, duplicate delivery, out-of-order, interrupted transfer+retry, concurrent field edits, conflicting schema changes, revoked device attempts, malformed/unauthorized ops, browser restart with pending changes; clearly separated from real sync; demo data isolated from production.
+- **Acceptance criteria:**
+  - AC1 sim lab present
+  - AC2 separated from real sync
+  - AC3 demo isolation
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** passing sim does not prove real sync
+- **History:** 2026-10-23 created
+
+---
+
+### F-049 — Automated sync test suite
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Test Automation Engineer
+- **Milestone:** M6
+- **Description:** Unit/integration/E2E tests: offline edits queued; survive reload; two peers converge; repeated delivery no duplicates; out-of-order safe; interrupted transfers resume; concurrent edits create conflicts; conflict resolution preserves history; schema changes don't corrupt observations; unauthorized peers rejected; revoked device rejected when known; stale permissions handled per policy; council votes not overwritten; audit history intact; demo reset doesn't affect real data; usable offline; UI status accurate; protocol-version mismatch safe; storage quota/persistence failure surfaced; no paid service dependency. Deterministic in-memory/local transport for protocol tests; separate real-browser network tests.
+- **Acceptance criteria:**
+  - AC1 all 20 test categories
+  - AC2 deterministic transport
+  - AC3 real-browser tests optional
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** no paid external service
+- **History:** 2026-10-23 created
+
+---
+
+### F-050 — Sync documentation, threat model and known limitations
+
+- **Status:** proposed
+- **Source:** admin
+- **Owner:** Technical Writer
+- **Milestone:** M6
+- **Description:** Before implementation: inspect repo, identify persistence/auth/authz/deployment, produce short implementation plan with files to change, identify features needing reachable peer/coordination. Deliverables: working sync code, versioned protocol + architecture docs, setup/pairing instructions, offline/recovery instructions, security/threat-model notes, deployment requirements, automated tests + actual results, updated demo data/simulation, known limitations/unfinished items. Document that global peer discovery, restrictive networks, and delivery while all peers offline cannot be guaranteed without coordination/relay.
+- **Acceptance criteria:**
+  - AC1 docs complete
+  - AC2 limitations explicit
+  - AC3 test results reported
+- **Tasks:** (none yet)
+- **Tests:** (to be assigned)
+- **Notes:** honest reporting of failures
+- **History:** 2026-10-23 created
+
+---
 
