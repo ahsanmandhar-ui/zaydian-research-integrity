@@ -1,7 +1,7 @@
 # Zaydian Research Integrity — Project Plan
 
 > **Status:** approved · **Version:** 1.0 · **Updated:** 2026-10-23
-> **Approved by:** PENDING — do not start execution
+> **Approved by:** Admin · 2026-10-23
 
 ---
 

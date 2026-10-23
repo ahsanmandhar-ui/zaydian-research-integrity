@@ -7,7 +7,7 @@
       "id": "T-001",
       "title": "Project scaffold (Vite+React+TS+Dexie)",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M0",
       "effort_hours": 3,
       "infrastructure": true,
