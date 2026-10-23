@@ -10,11 +10,11 @@
 **Active task:** none
 **Active agent:** Engagement Manager
 **Started:** —
-**Last completed:** T-005/T-006/T-008/T-023 sync & security crypto (2026-10-23)
-**Last commit:** 42eeb40
+**Last completed:** T-011 project links (2026-10-23)
+**Last commit:** bfe09c5
 **Blocked tasks:** none
-**Tasks ready now:** T-004, T-011, T-022, T-024, T-025, T-026
-**Next step:** T-011 project links & sharing
+**Tasks ready now:** T-004, T-007, T-022, T-024, T-025, T-026
+**Next step:** T-022 UI shell
 **Open questions for Admin:** none
 **Model switches survived:** 0
 
@@ -26,7 +26,7 @@
 **Result:** done
 **Files touched:** plan.md, progress.md, features.md, decisions.md, skill-registry.md, graph.json
 **Verified by:** `validate_graph.py` → pending (graph not yet built)
-**Next step:** T-011 project links & sharing
+**Next step:** T-022 UI shell
 **Handoff:** n/a
 
 ---
@@ -35,7 +35,7 @@
 **Result:** done
 **Files touched:** features.md
 **Verified by:** feature count matches the Admin's list (40 of 40)
-**Next step:** T-011 project links & sharing
+**Next step:** T-022 UI shell
 **Handoff:** n/a
 
 ---

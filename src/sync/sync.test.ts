@@ -1,7 +1,7 @@
 ﻿import { describe, it, expect, beforeEach } from 'vitest'
 import { db } from '../db'
 import { enqueueOp, pendingOps, markApplied } from './oplog'
-import { applyRemoteOps, openConflicts } from './protocol'
+import { applyRemoteOps } from './protocol'
 
 beforeEach(async () => {
   await db.open()
