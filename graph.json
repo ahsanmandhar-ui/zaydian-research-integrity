@@ -508,7 +508,7 @@
       "id": "T-022",
       "title": "UI shell, navigation & WCAG 2.2 AA",
       "owner": "ui-ux-designer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M4",
       "effort_hours": 3,
       "outputs": [
