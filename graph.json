@@ -573,7 +573,7 @@
       "id": "T-025",
       "title": "Test automation setup (Vitest+Playwright)",
       "owner": "test-automation-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M6",
       "effort_hours": 3,
       "outputs": [
@@ -594,7 +594,7 @@
       "id": "T-026",
       "title": "Documentation & threat model",
       "owner": "technical-writer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M6",
       "effort_hours": 3,
       "outputs": [

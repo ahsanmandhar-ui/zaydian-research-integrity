@@ -1,32 +1,27 @@
-# React + TypeScript + Vite
+﻿# Zaydian Research Integrity
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Local-first research management app (PWA) with offline support and optional P2P sync over WebRTC.
 
-Currently, two official plugins are available:
+## Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `npm run dev` - start dev server
+- `npm run build` - production build
+- `npm run test` - run unit tests
+- `npm run lint` - lint
 
-## React Compiler
+## Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Vite + React + TypeScript
+- Dexie (IndexedDB) for local persistence
+- WebRTC data channels for P2P sync (manual/QR pairing)
+- Service worker for offline caching
 
-## Expanding the Oxlint configuration
+## Sync limitations
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Peer discovery is manual; no central relay by default.
+- Restrictive networks may block WebRTC; sync falls back to manual file export/import.
+- Offline changes queue locally and sync when peers reconnect.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## License
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+MIT
