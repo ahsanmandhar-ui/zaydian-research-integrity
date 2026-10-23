@@ -329,7 +329,7 @@
       "id": "T-014",
       "title": "Variable View (SPSS-style)",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M2",
       "effort_hours": 4,
       "outputs": [
@@ -356,7 +356,7 @@
       "id": "T-015",
       "title": "Data View grid + validation",
       "owner": "frontend-engineer",
-      "status": "pending",
+      "status": "done",
       "milestone": "M2",
       "effort_hours": 4,
       "outputs": [
