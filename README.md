@@ -381,27 +381,7 @@ sequenceDiagram
     OP-->>B: Reconcile conflicts
 ```
 
-### CI/CD Pipeline
 
-```mermaid
-flowchart LR
-    DEV["Developer"] -->|"git push to master"| REPO["GitHub Repository"]
-
-    REPO --> CI["GitHub Actions - CI<br/>lint · test · build"]
-    CI -->|"fail"| BLOCK["Deploy blocked"]
-    CI -->|"pass"| DEPLOY["Deploy workflow<br/>npm run build"]
-
-    SECRETS["GitHub Secrets<br/>Firebase config"] --> DEPLOY
-    DEPLOY --> ART["Static build artifacts"]
-    ART --> PAGES["GitHub Pages"]
-    PAGES --> LIVE["Live SPA<br/>~2 min"]
-
-    LIVE --> ROUTER["HashRouter"]
-    ROUTER --> VERIFY["/verify<br/>public, no login"]
-    ROUTER --> AUTH["/dataset · /projects · etc.<br/>auth required"]
-
-    LIVE -.->|"runtime reads/writes"| FB["Firestore<br/>completions/{cryptoKey}"]
-```
 
 ### Tech Stack
 | Layer | Technology |
