@@ -1,3 +1,51 @@
+/* Mobile-native baseline */
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+
+input, textarea, select {
+  font-size: 16px;
+}
+
+button, a, [role="button"] {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@media (max-width: 768px) {
+  .zri-nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .zri-nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+  }
+  .zri-nav-links a, .zri-nav-links button {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+  .zri-shell {
+    padding: 8px !important;
+  }
+  .zri-card {
+    padding: 12px !important;
+  }
+  table {
+    font-size: 12px;
+  }
+  th, td {
+    padding: 4px 6px !important;
+  }
+}
+
+
 :root {
   --text: #d0d6e0;
   --text-h: #f7f8f8;
@@ -55,12 +103,12 @@
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1126px;
   margin: 0 auto;
   text-align: center;
   border-inline: 1px solid var(--border);
-  min-height: 100svh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
