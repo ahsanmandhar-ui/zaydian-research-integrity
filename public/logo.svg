@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#0f1011" stroke="#5e6ad2" stroke-width="3"/>
+  
+  <!-- Shield shape -->
+  <path d="M100 25 L160 55 L160 105 Q160 155 100 175 Q40 155 40 105 L40 55 Z" 
+        fill="none" stroke="#5e6ad2" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Inner shield -->
+  <path d="M100 35 L150 60 L150 105 Q150 145 100 162 Q50 145 50 105 L50 60 Z" 
+        fill="rgba(94,106,210,0.1)" stroke="#5e6ad2" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Z letter -->
+  <text x="100" y="115" font-family="Inter, system-ui, sans-serif" font-size="60" font-weight="700" 
+        fill="#5e6ad2" text-anchor="middle" dominant-baseline="middle">Z</text>
+  
+  <!-- Checkmark -->
+  <path d="M75 100 L90 115 L125 80" fill="none" stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Data dots -->
+  <circle cx="60" cy="65" r="3" fill="#5e6ad2" opacity="0.6"/>
+  <circle cx="140" cy="65" r="3" fill="#5e6ad2" opacity="0.6"/>
+  <circle cx="60" cy="135" r="3" fill="#5e6ad2" opacity="0.6"/>
+  <circle cx="140" cy="135" r="3" fill="#5e6ad2" opacity="0.6"/>
+  
+  <!-- Bottom text -->
+  <text x="100" y="185" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" 
+        fill="#5e6ad2" text-anchor="middle" letter-spacing="2">RESEARCH INTEGRITY</text>
+</svg>
