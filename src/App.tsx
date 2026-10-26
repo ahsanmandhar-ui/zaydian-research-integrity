@@ -19,7 +19,7 @@ import Login from './pages/Login'
 import { ensureRoles, ensurePrimaryAdmin, login, currentUser, logout, verifyMfa, hasPermission, listProjectsForUser } from './auth/auth'
 import type { User } from './db'
 import Splash3D from './components/Splash3D'
-import { seedDemoData } from './seed'
+
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null)
@@ -171,7 +171,7 @@ export default function App() {
       if (!u) {
         try { await ensurePrimaryAdmin('ahsanmandhar@gmail.com', 'Primary Admin', 'Sadeed543@') } catch {}
       }
-      if (u) await seedDemoData(u.id!)
+
       setUser(u)
       if (u) {
         const { db } = await import('./db')
@@ -186,7 +186,7 @@ export default function App() {
     if (u.mfaSecret && !(await verifyMfa(u, mfaCode || ''))) {
       throw new Error('Invalid MFA code')
     }
-    if (u) await seedDemoData(u.id!)
+
     setUser(u)
   }
   if (splash) return <Splash3D />
