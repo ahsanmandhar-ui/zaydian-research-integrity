@@ -16,7 +16,7 @@
   <a href="https://ahsanmandhar-ui.github.io/zaydian-research-integrity/#/verify">
     <img src="https://img.shields.io/badge/Verify-Dataset-22c55e?style=for-the-badge&logo=shield" alt="Verify" />
   </a>
-  <img src="https://img.shields.io/badge/License-MIT-5e6ad2?style=for-the-badge" alt="MIT License" />
+  <img src="https://img.shields.io/badge/License-Permission_Required-eb5757?style=for-the-badge" alt="Permission Required" />
   <img src="https://img.shields.io/badge/Version-0.4.1-eb5757?style=for-the-badge" alt="Version" />
 </p>
 ---
@@ -125,7 +125,7 @@ Org A (PC)                    Cloud (Firebase)              Org B (Web)
 | **GitHub Repo** | https://github.com/ahsanmandhar-ui/zaydian-research-integrity |
 | **Live App** | https://ahsanmandhar-ui.github.io/zaydian-research-integrity/ |
 | **Verify Dataset** | https://ahsanmandhar-ui.github.io/zaydian-research-integrity/#/verify |
-| **License** | MIT |
+| **License** | Permission Required (All Rights Reserved) |
 
 ---
 
@@ -156,6 +156,10 @@ npm run tauri build
 
 ## License
 
-MIT License — Permission is hereby granted, free of charge, to any person obtaining a copy of this software to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies.
+**Permission Required License** — Copyright (c) 2026 Zaydian Research. All Rights Reserved.
 
-See [LICENSE](LICENSE) for full text.
+No person may use, copy, modify, merge, publish, distribute, sublicense, or sell copies of this Software without prior written permission from Zaydian Research.
+
+For permission requests, contact: ahsanmandhar@gmail.com
+
+See [LICENSE](LICENSE) for full terms.
