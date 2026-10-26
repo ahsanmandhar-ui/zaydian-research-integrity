@@ -351,6 +351,58 @@ sequenceDiagram
     end
 ```
 
+### P2P Sync Flow
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant A as Device A
+    participant OP as oplog.ts
+    participant TR as transport.ts<br/>WebRTC / BLE / TCP relay
+    participant PE as peers.ts
+    participant B as Device B
+
+    Note over A,B: Peer discovery and pairing
+    A->>PE: discover / pair
+    PE-->>A: peer list
+    PE-->>B: peer list
+
+    Note over A,B: Record propagation
+    A->>A: Create record
+    A->>OP: Append operation entry
+    OP->>TR: Send op over data channel
+    TR->>B: Deliver op
+    B->>B: Apply op (CRDT-like)
+    B-->>TR: Ack
+    TR-->>A: Ack
+
+    Note over A,B: Conflict handling
+    OP->>OP: Order ops by log sequence
+    OP-->>B: Reconcile conflicts
+```
+
+### CI/CD Pipeline
+
+```mermaid
+flowchart LR
+    DEV["Developer"] -->|"git push to master"| REPO["GitHub Repository"]
+
+    REPO --> CI["GitHub Actions - CI<br/>lint · test · build"]
+    CI -->|"fail"| BLOCK["Deploy blocked"]
+    CI -->|"pass"| DEPLOY["Deploy workflow<br/>npm run build"]
+
+    SECRETS["GitHub Secrets<br/>Firebase config"] --> DEPLOY
+    DEPLOY --> ART["Static build artifacts"]
+    ART --> PAGES["GitHub Pages"]
+    PAGES --> LIVE["Live SPA<br/>~2 min"]
+
+    LIVE --> ROUTER["HashRouter"]
+    ROUTER --> VERIFY["/verify<br/>public, no login"]
+    ROUTER --> AUTH["/dataset · /projects · etc.<br/>auth required"]
+
+    LIVE -.->|"runtime reads/writes"| FB["Firestore<br/>completions/{cryptoKey}"]
+```
+
 ### Tech Stack
 | Layer | Technology |
 |-------|-----------|
