@@ -1,4 +1,4 @@
-﻿import { castVote, tallyVotes } from '../voting/votes'
+import { castVote, tallyVotes } from '../voting/votes'
 
 export function CouncilVote({ projectId, userId }: { projectId: number; userId: number }) {
   async function vote(decision: 'approve' | 'reject' | 'abstain') {

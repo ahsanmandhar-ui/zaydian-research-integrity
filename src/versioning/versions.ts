@@ -1,4 +1,4 @@
-﻿import { db, type Version } from '../db'
+import { db, type Version } from '../db'
 import { listVariables } from '../dataset/variables'
 import { listRecords } from '../dataset/records'
 

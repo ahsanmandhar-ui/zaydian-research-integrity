@@ -12,6 +12,56 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+deploy.zip
+deploy-check/
+firebase-install.log
+netlify-install.log
+netlify-local.log
+netlify-deploy.log
+netlify-cli-deploy.log
+netlify-final.log
+netlify-version.log
+build.log
+dev.log
+
+# Sensitive data
+*.key
+*.pem
+*.secret
+*.p12
+*.pfx
+
+# Non-project directories
+.cline/
+research-toolkit/
+excel-spreadsheet/
+.graph/
+reports/
+*.txt
+*.mmd
+META_ANALYSIS*
+IMPLEMENTATION_PLAN.md
+plan.md
+features.md
+CONTEXT.md
+EXECUTION_PLAN.md
+MAJOR_UPDATE_PLAN.md
+MULTI_ORG_*
+USER_AGENT_REPORT.md
+skill-registry.md
+update-app.ps1
+fulltest.txt
+previewout.txt
+buildout*.txt
+graph.json
+graph.svg
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

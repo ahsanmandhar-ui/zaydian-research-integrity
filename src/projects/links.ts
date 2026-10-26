@@ -1,4 +1,4 @@
-﻿import { db, type ProjectLink } from '../db'
+import { db, type ProjectLink } from '../db'
 
 export async function addLink(projectId: number, label: string, url: string, createdBy: number): Promise<ProjectLink> {
   const id = await db.projectLinks.add({ projectId, label, url, createdBy, createdAt: Date.now() })

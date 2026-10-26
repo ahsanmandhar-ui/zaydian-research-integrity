@@ -1,4 +1,4 @@
-﻿import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, beforeEach } from 'vitest'
 import { db } from '../db'
 import { enqueueOp, pendingOps, markApplied } from './oplog'
 import { applyRemoteOps } from './protocol'

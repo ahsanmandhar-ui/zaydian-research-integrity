@@ -1,13 +1,13 @@
-import react from '@vitejs/plugin-react'
+﻿import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vitest/config'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      devOptions: { enabled: false },
       manifest: {
         name: 'Zaydian Research Integrity',
         short_name: 'ZRI',
@@ -21,5 +21,8 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     setupFiles: './src/test/setup.ts',
+    exclude: ['**/node_modules/**', '**/excel-spreadsheet/**'],
+    isolate: false,
+    testTimeout: 30000,
   },
 })

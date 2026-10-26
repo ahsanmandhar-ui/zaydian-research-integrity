@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import { resolveConflict } from '../sync/protocol'
 
 export function ConflictResolver({ conflictId }: { conflictId: number }) {

@@ -1,4 +1,4 @@
-﻿import { db, type SyncOperation } from '../db'
+import { db, type SyncOperation } from '../db'
 
 export async function enqueueOp(op: Omit<SyncOperation, 'id'>): Promise<SyncOperation> {
   const id = await db.syncOperations.add(op as SyncOperation)

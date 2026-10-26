@@ -1,4 +1,4 @@
-﻿import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, beforeEach } from 'vitest'
 import { db } from '../db'
 import { submitProject, reviewSubmission } from '../submission/submissions'
 import { castVote, tallyVotes } from '../voting/votes'

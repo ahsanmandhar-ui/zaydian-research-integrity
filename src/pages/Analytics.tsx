@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { db } from '../db'
 export default function Analytics(){
   const [n,setN]=useState(0)

@@ -1,4 +1,4 @@
-﻿import { db, type Submission } from '../db'
+import { db, type Submission } from '../db'
 import { createVersion } from '../versioning/versions'
 
 export async function submitProject(projectId: number, submittedBy: number): Promise<Submission> {

@@ -1,4 +1,4 @@
-﻿import { db, type Vote } from '../db'
+import { db, type Vote } from '../db'
 
 export async function castVote(projectId: number, userId: number, decision: Vote['decision'], comment?: string, supersedes?: number): Promise<Vote> {
   const id = await db.votes.add({ projectId, userId, decision, comment, createdAt: Date.now(), supersedes })

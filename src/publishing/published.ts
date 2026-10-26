@@ -1,4 +1,4 @@
-﻿import { db, type PublishedItem } from '../db'
+import { db, type PublishedItem } from '../db'
 
 export async function publishVersion(projectId: number, versionId: number, publishedBy: number): Promise<PublishedItem> {
   const id = await db.publishedItems.add({ projectId, versionId, publishedBy, publishedAt: Date.now() })

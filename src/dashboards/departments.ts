@@ -1,4 +1,4 @@
-﻿import { db, type DepartmentDashboard } from '../db'
+import { db, type DepartmentDashboard } from '../db'
 
 export async function upsertDashboard(department: string, config: unknown): Promise<DepartmentDashboard> {
   const existing = await db.departmentDashboards.where('department').equals(department).first()

@@ -22,6 +22,12 @@ Local-first research management app (PWA) with offline support and optional P2P 
 - Restrictive networks may block WebRTC; sync falls back to manual file export/import.
 - Offline changes queue locally and sync when peers reconnect.
 
+## Meta-analysis module
+
+- Forest plot with study rows, pooled estimates, heterogeneity stats.
+- Export SVG/PNG/CSV/JSON.
+- Unit tests in `src/components/MetaAnalysis/__tests__`.
+
 ## License
 
 MIT

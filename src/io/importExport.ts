@@ -1,4 +1,4 @@
-﻿import * as XLSX from 'xlsx'
+import * as XLSX from 'xlsx'
 import { db } from '../db'
 import { listVariables } from '../dataset/variables'
 import { createRecord } from '../dataset/records'

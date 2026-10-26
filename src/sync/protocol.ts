@@ -1,4 +1,4 @@
-﻿import { db, type ConflictRecord } from '../db'
+import { db, type ConflictRecord } from '../db'
 
 export interface RemoteOp {
   id: number
@@ -17,6 +17,12 @@ export async function applyRemoteOps(ops: RemoteOp[]): Promise<{ applied: number
     const existing = await db.syncOperations.where('id').equals(op.id).first()
     if (existing) continue
     await db.syncOperations.add({ ...op, appliedAt: Date.now() })
+    if (op.entityType === 'chatMessage' && op.op === 'create') {
+      const payload = op.payload as any
+      const existsMsg = payload.id ? await db.chatMessages.get(payload.id) : undefined
+      if (!existsMsg) await db.chatMessages.add(payload)
+    }
+
     const localOps = await db.syncOperations.where('entityId').equals(op.entityId).toArray()
     const newerLocal = localOps.some((o) => o.deviceId !== op.deviceId && o.createdAt > op.createdAt && !o.appliedAt)
     if (newerLocal) {
