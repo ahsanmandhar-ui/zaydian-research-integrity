@@ -191,8 +191,9 @@ export default function App() {
   }
   if (splash) return <Splash3D />
   if (!ready) return <div>Loading...</div>
-  // Allow public access to verify page
-  if (window.location.pathname === '/verify') {
+  // Allow public access to verify page (check hash for HashRouter)
+  const hash = window.location.hash.replace(/^#/, '').toLowerCase()
+  if (hash === '/verify' || hash === 'verify' || hash === '/verify/') {
     return (
       <HashRouter>
         <main id="main-content" className="zri-shell" style={{ maxWidth: 600, margin: '0 auto', padding: 24 }}>
