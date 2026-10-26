@@ -3,6 +3,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
+  base: '/zaydian-research-integrity/',
   plugins: [
     react(),
     VitePWA({
