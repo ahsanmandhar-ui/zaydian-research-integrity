@@ -770,6 +770,7 @@ sequenceDiagram
     DS-->>U: New key, edit history, "Save Changes"
     end
 
+```
     rect rgb(240, 255, 240)
 ---
 
