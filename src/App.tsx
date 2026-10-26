@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { BrowserRouter, Routes, Route, NavLink, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Dataset from './pages/Dataset'
@@ -194,16 +194,16 @@ export default function App() {
   // Allow public access to verify page
   if (window.location.pathname === '/verify') {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <main id="main-content" className="zri-shell" style={{ maxWidth: 600, margin: '0 auto', padding: 24 }}>
           <VerifyDataset />
         </main>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
   if (!user) return <Login onLogin={handleLogin} />
   return (
-    <BrowserRouter>
+    <HashRouter>
   <a href="#main-content" className="skip-link" style={{position:'absolute',left:-9999}}>Skip to main content</a>
       <nav className="zri-nav" aria-label="Primary">
         <div className="zri-nav-user">
@@ -276,7 +276,7 @@ export default function App() {
         )}
       </main>
     <ToastHost />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
