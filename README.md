@@ -72,6 +72,31 @@ General ideas, research principles, and standard software functionalities are no
 
 ---
 
+## Application Features
+
+Zaydian Research Integrity provides the following application features, available through its interface and modules:
+
+- **Research Project Management** — Create and organize research projects; assign team members and project-specific roles; manage project documentation and research milestones; support controlled project completion and approval workflows.
+- **Role-Based Access Control** — Six system roles (master, admin, researcher, reviewer, viewer, team_lead) plus project-level posts (data_collector, analyst, supervisor, manuscript_writer, research_head); permission-gated operations; organization and project isolation.
+- **Research Data Collection** — Collect and manage structured research data with typed variables; apply validation rules to reduce data-entry errors; support controlled data amendments and exports (CSV/XLSX/PDF).
+- **Audit Trails and Dataset Versioning** — Record relevant research activities and dataset changes; maintain identifiable dataset versions; track the relationship between finalized and subsequently amended datasets; HMAC SHA-256 audit chain.
+- **Cryptographic Dataset Verification** — Generate cryptographic fingerprints (keys) for finalized datasets; provide a public verification page (`/verify`) with QR code sharing; detect superseded versions.
+- **Data Integrity Completion Certificate** — Concept proposed by Prof. Dr. Ghulam Mustafa Rayar; certificate workflow tied to finalized dataset hash (conceptual origin).
+- **Offline-First Operation** — Local-first data access and storage via IndexedDB (Dexie); service worker / PWA support; works without continuous connectivity.
+- **Peer-to-Peer Collaboration** — Direct synchronization between devices via WebRTC data channels, BLE, and TCP relay; oplog-based operation propagation; conflict reconciliation.
+- **Synchronization** — Sync operations, peer discovery, pairing, and conflict handling.
+- **Analytics and Dashboards** — Research analytics, advanced analytics, and customizable dashboards.
+- **Studies and Published Vault** — Manage studies and published records; study comments and activity tracking.
+- **Dataset Chat** — In-project dataset discussion.
+- **Council Voting** — Approval/rejection voting with comments and supersession.
+- **Access Management** — Access requests, administrator review/approval/rejection, secure invitations, account activation, suspension/deactivation, access history.
+- **Master Administration** — Organization creation and administration, user provisioning, access-request oversight.
+- **Security** — PBKDF2 (600K iterations) password hashing, TOTP MFA, device-derived AES-GCM sessions, RBAC, CSRF protection, CSP, DOMPurify sanitization, certificate pinning, input validation, rate limiting.
+- **Observability** — System observability and monitoring views.
+- **Verification (Public)** — Public, no-login dataset verification by completion key or QR scan.
+
+---
+
 ## 1. Project Overview
 
 Zaydian Research Integrity (ZRI) is designed to help research teams manage projects, control access to research data, maintain auditable records of changes, and verify dataset versions.
