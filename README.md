@@ -47,9 +47,13 @@ Zaydian Research Integrity is undergoing testing and development in the context 
 
 ## Copyright and Intellectual Property
 
-© 2026 Ahsan Mandhar. All rights reserved. The original software implementation, source code, application architecture, interface design, documentation, and original technical components of Zaydian Research Integrity are subject to applicable copyright protection.
+© 2026 Ahsan Mandhar. All rights reserved. The original software implementation, source code, application architecture, interface design, documentation, and original technical components of Zaydian Research Integrity are subject to applicable copyright protection and are copyrighted by Ahsan Mandhar.
 
-Prof. Dr. Ghulam Mustafa Rayar is acknowledged as the principal concept originator of the research-integrity framework. General ideas, research principles, and standard software functionalities are not claimed as exclusive property. Third-party license obligations are preserved.
+The research-integrity concept, foundational vision, and conceptual direction underlying Zaydian Research Integrity originate from and are copyrighted by Prof. Dr. Ghulam Mustafa Rayar, who is acknowledged as the Principal Concept Originator and Research Integrity Framework Proposer.
+
+Prof. Dr. Ghulam Mustafa Rayar — LinkedIn: https://www.linkedin.com/in/prof-dr-ghulam-mustafa-rayar-06439648/
+
+General ideas, research principles, and standard software functionalities are not claimed as exclusive property. Third-party license obligations are preserved.
 
 ---
 
