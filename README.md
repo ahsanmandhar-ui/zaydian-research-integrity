@@ -969,19 +969,6 @@ flowchart LR
     R5 --> P7
     R6 --> P3
 ```
-    Note over V,DB: Verification flow (no login)
-    V->>DS: Open /verify, paste key or scan QR
-    DS->>DS: Normalize key (strip dashes, uppercase)
-    DS->>DB: Lookup local cache
-    alt Not cached
-        DS->>FB: fetchCompletionFromCloud(key)
-        FB-->>DS: Completion record
-        DS->>DB: Cache locally
-    end
-    DS-->>V: Topic, authors, COI, sponsors, location, edit history
-    DS-->>V: "Current" or "Superseded" badge + QR for re-share
-    end
-```
 
 ### P2P Sync Flow
 
@@ -1177,6 +1164,7 @@ erDiagram
     }
 ```
 
+
 ### Complete and Verify Flow
 
 ```mermaid
@@ -1321,7 +1309,4 @@ No person may use, copy, modify, merge, publish, distribute, sublicense, or sell
 
 For permission requests, contact: ahsanmandhar@gmail.com
 
-
 See [LICENSE](LICENSE) for full terms.
-
-```
