@@ -2,8 +2,6 @@
 
 > **Intellectual origin:** This initiative is based on the research-integrity concept proposed by **Prof. Dr. Ghulam Mustafa Rayar**, who is the **Principal Concept Originator and Research Integrity Framework Proposer**. The software application was developed and implemented by **Ahsan Mandhar**.
 
----
-
 ## Principal Concept Originator and Research Integrity Framework Proposer
 
 **[Prof. Dr. Ghulam Mustafa Rayar](https://www.linkedin.com/in/prof-dr-ghulam-mustafa-rayar-06439648/)**
@@ -45,21 +43,6 @@ His work includes:
 
 Zaydian Research Integrity is undergoing testing and development in the context of Sheikh Zayed Medical College and Hospital, Rahim Yar Khan (SZMC RYK). This testing context does not independently establish formal institutional approval, endorsement, accreditation, ethics approval, or production deployment.
 
-## Attribution and Copyright Hierarchy
-
-```mermaid
-flowchart TD
-    A["Zaydian Research Integrity (ZRI)"] --> B["Intellectual Origin / Concept"]
-    A --> C["Software Implementation"]
-    B --> D["Prof. Dr. Ghulam Mustafa Rayar<br/>Principal Concept Originator<br/>Research Integrity Framework Proposer<br/>Copyright of the concept"]
-    C --> E["Ahsan Mandhar<br/>Application Developer<br/>Technical Implementation<br/>Copyright of source code"]
-    D -.->|proposed framework| E
-    style D fill:#1e3a8a,color:#fff,stroke:#1e3a8a
-    style E fill:#0f766e,color:#fff,stroke:#0f766e
-```
-
----
-
 
 © 2026 Ahsan Mandhar. All rights reserved. The original software implementation, source code, application architecture, interface design, documentation, and original technical components of Zaydian Research Integrity are subject to applicable copyright protection and are copyrighted by Ahsan Mandhar.
 
@@ -68,10 +51,6 @@ The research-integrity concept, foundational vision, and conceptual direction un
 Prof. Dr. Ghulam Mustafa Rayar — LinkedIn: https://www.linkedin.com/in/prof-dr-ghulam-mustafa-rayar-06439648/
 
 General ideas, research principles, and standard software functionalities are not claimed as exclusive property. Third-party license obligations are preserved.
-
----
-
-An offline-first research data governance and integrity platform by Ahsan Mandhar.
 
 <p align="center">
   <img src="public/logo.svg" alt="ZRI Logo" width="120" />
