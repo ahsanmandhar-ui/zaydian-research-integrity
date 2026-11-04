@@ -20,7 +20,7 @@ His vision and conceptual guidance form the foundation of this initiative. The s
 
 ## Application Developer and Technical Implementation
 
-**Ahsan Mandhar**
+**[Ahsan Mandhar](https://www.linkedin.com/in/ahsan-mandhar-100535347/)**
 
 Ahsan Mandhar undertook the software development and technical implementation of the research-integrity concept proposed by Prof. Dr. Ghulam Mustafa Rayar.
 
@@ -45,7 +45,21 @@ His work includes:
 
 Zaydian Research Integrity is undergoing testing and development in the context of Sheikh Zayed Medical College and Hospital, Rahim Yar Khan (SZMC RYK). This testing context does not independently establish formal institutional approval, endorsement, accreditation, ethics approval, or production deployment.
 
-## Copyright and Intellectual Property
+## Attribution and Copyright Hierarchy
+
+```mermaid
+flowchart TD
+    A["Zaydian Research Integrity (ZRI)"] --> B["Intellectual Origin / Concept"]
+    A --> C["Software Implementation"]
+    B --> D["Prof. Dr. Ghulam Mustafa Rayar<br/>Principal Concept Originator<br/>Research Integrity Framework Proposer<br/>Copyright of the concept"]
+    C --> E["Ahsan Mandhar<br/>Application Developer<br/>Technical Implementation<br/>Copyright of source code"]
+    D -.->|proposed framework| E
+    style D fill:#1e3a8a,color:#fff,stroke:#1e3a8a
+    style E fill:#0f766e,color:#fff,stroke:#0f766e
+```
+
+---
+
 
 © 2026 Ahsan Mandhar. All rights reserved. The original software implementation, source code, application architecture, interface design, documentation, and original technical components of Zaydian Research Integrity are subject to applicable copyright protection and are copyrighted by Ahsan Mandhar.
 
