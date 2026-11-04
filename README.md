@@ -1,5 +1,58 @@
 # Zaydian Research Integrity (ZRI)
 
+> **Intellectual origin:** This initiative is based on the research-integrity concept proposed by **Prof. Dr. Ghulam Mustafa Rayar**, who is the **Principal Concept Originator and Research Integrity Framework Proposer**. The software application was developed and implemented by **Ahsan Mandhar**.
+
+---
+
+## Principal Concept Originator and Research Integrity Framework Proposer
+
+**[Prof. Dr. Ghulam Mustafa Rayar](https://www.linkedin.com/in/prof-dr-ghulam-mustafa-rayar-06439648/)**
+
+Prof. Dr. Ghulam Mustafa Rayar is the principal conceptual originator of the research-integrity initiative underlying Zaydian Research Integrity.
+
+He proposed the foundational idea of addressing fabricated, falsified, and unreliable research-data entry through a structured research-integrity framework.
+
+His conceptual contribution includes identifying the problem of research-data fabrication and proposing a mechanism that connects research-data collection with researcher accountability through identifiable contact information, including email addresses and phone numbers.
+
+He also proposed the concept of providing a Data Integrity Completion Certificate after the completion of data collection, creating an accountability-oriented framework for research projects.
+
+His vision and conceptual guidance form the foundation of this initiative. The software infrastructure was subsequently developed to translate this proposed framework into a functional application.
+
+## Application Developer and Technical Implementation
+
+**Ahsan Mandhar**
+
+Ahsan Mandhar undertook the software development and technical implementation of the research-integrity concept proposed by Prof. Dr. Ghulam Mustafa Rayar.
+
+His work includes:
+
+- Application architecture and software development.
+- Frontend and backend implementation.
+- Authentication and role-based access control.
+- Research project and dataset management.
+- Researcher accountability mechanisms.
+- Dataset versioning and audit logging.
+- Cryptographic dataset verification.
+- Offline-first application infrastructure.
+- Decentralized collaboration functionality.
+- Integration, testing, and technical maintenance.
+
+## Official Attribution Statement
+
+"Zaydian Research Integrity is an initiative based on the research-integrity concept proposed by Prof. Dr. Ghulam Mustafa Rayar, who established the foundational vision and conceptual direction for addressing fabricated research data and strengthening accountability in scientific data collection. Ahsan Mandhar undertook the software development and technical implementation, translating this proposed framework into a functional digital research-integrity infrastructure."
+
+## Institutional Testing Disclosure
+
+Zaydian Research Integrity is undergoing testing and development in the context of Sheikh Zayed Medical College and Hospital, Rahim Yar Khan (SZMC RYK). This testing context does not independently establish formal institutional approval, endorsement, accreditation, ethics approval, or production deployment.
+
+## Copyright and Intellectual Property
+
+© 2026 Ahsan Mandhar. All rights reserved. The original software implementation, source code, application architecture, interface design, documentation, and original technical components of Zaydian Research Integrity are subject to applicable copyright protection.
+
+Prof. Dr. Ghulam Mustafa Rayar is acknowledged as the principal concept originator of the research-integrity framework. General ideas, research principles, and standard software functionalities are not claimed as exclusive property. Third-party license obligations are preserved.
+
+---
+
 An offline-first research data governance and integrity platform by Ahsan Mandhar.
 
 <p align="center">
