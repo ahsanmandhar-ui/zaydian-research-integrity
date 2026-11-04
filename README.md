@@ -1321,49 +1321,7 @@ No person may use, copy, modify, merge, publish, distribute, sublicense, or sell
 
 For permission requests, contact: ahsanmandhar@gmail.com
 
-See [LICENSE](LICENSE) for full terms.
-## Links
-
-| Resource | URL |
-|----------|-----|
-| **GitHub Repo** | https://github.com/ahsanmandhar-ui/zaydian-research-integrity |
-| **Live App** | https://ahsanmandhar-ui.github.io/zaydian-research-integrity/ |
-| **Verify Dataset** | https://ahsanmandhar-ui.github.io/zaydian-research-integrity/#/verify |
-| **License** | Permission Required (All Rights Reserved) |
-
----
-
-## Getting Started
-
-### Prerequisites
-- Node.js 18+
-- Rust (for Tauri desktop build)
-- Firebase project (for cloud sync)
-
-### Setup
-```bash
-git clone https://github.com/ahsanmandhar-ui/zaydian-research-integrity.git
-cd zaydian-research-integrity
-npm install
-cp .env.example .env
-# Fill in your Firebase config values
-npm run dev
-```
-
-### Desktop Build
-```bash
-npm run tauri build
-# Installer: src-tauri/target/release/bundle/nsis/
-```
-
----
-
-## License
-
-**Permission Required License** — Copyright (c) 2026 Zaydian Research. All Rights Reserved.
-
-No person may use, copy, modify, merge, publish, distribute, sublicense, or sell copies of this Software without prior written permission from Zaydian Research.
-
-For permission requests, contact: ahsanmandhar@gmail.com
 
 See [LICENSE](LICENSE) for full terms.
+
+```
